@@ -40,8 +40,8 @@ module.exports = {
             "link": "/categories/练习/",
           },
 		  {
-            "text": "作者",
-            "link": "/categories/作者/",
+            "text": "轨迹",
+            "link": "/categories/轨迹/",
           },
         ]
       },
