@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 无为徐生
+tagline: 书法练习轨迹
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

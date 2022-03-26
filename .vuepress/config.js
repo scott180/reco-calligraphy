@@ -1,7 +1,7 @@
 module.exports = {
-  "title": "reco-calligraphy",
+  "title": "书法练习",
   "description": "",
-  "dest": "public",
+  "dest": ".vuepress/dist",
   "head": [
     [
       "link",
@@ -22,68 +22,56 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间轴",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Docs",
+        "text": "联系",
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
-      },
-      {
-        "text": "Contact",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "text": "github",
+            "link": "https://github.com/scott180/reco-calligraphy",
             "icon": "reco-github"
+          },
+		  {
+            "text": "xushufa",
+            "link": "https://xushufa.cn",
+            "icon": "reco-home"
           }
         ]
       }
     ],
-    "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
-    },
+   
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "博客"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
-    "friendLink": [
+    "Friend Link": [
       {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
+        "title": "无为徐生",
+        "desc": "人情必有所寄，习惯而成自然。",
+        "email": "1021151991@qq.com",
+        "link": "https://xushufa.cn"
       },
       {
-        "title": "vuepress-theme-reco",
+        "title": "reco-calligraphy",
         "desc": "A simple and beautiful vuepress Blog & Doc theme.",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
+        "link": "https://github.com/scott180/reco-calligraphy"
       }
     ],
     "logo": "/logo.png",
@@ -92,10 +80,25 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+	record: '浙ICP备2022008289号-1',
+    recordLink: 'http://beian.miit.gov.cn',
+    cyberSecurityRecord: '浙公网安备 33011002016354号',
+    cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002016354',
+    startYear: '2022',
+	subSidebar: 'auto'
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  plugins: [
+      // 支持中文文件名
+      [
+        "permalink-pinyin",
+        {
+          lowercase: true, // Converted into lowercase, default: true
+          separator: "-", // Separator of the slug, default: '-'
+        },
+      ],
+  ]
+
 }
