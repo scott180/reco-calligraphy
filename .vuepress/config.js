@@ -27,6 +27,24 @@ module.exports = {
         "link": "/",
         "icon": "reco-home"
       },
+	  {
+        "text": "分类",
+        "icon": "reco-category",
+        "items": [
+          {
+            "text": "书法",
+            "link": "/categories/书法/",
+          },
+		  {
+            "text": "练习",
+            "link": "/categories/练习/",
+          },
+		  {
+            "text": "作者",
+            "link": "/categories/作者/",
+          },
+        ]
+      },
       {
         "text": "时间轴",
         "link": "/timeline/",
@@ -54,10 +72,10 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "博客"
+        "text": "分类"
       },
       "tag": {
-        "location": 3,
+        "location": 4,
         "text": "标签"
       }
     },
