@@ -1,6 +1,7 @@
 module.exports = {
   "title": "书法练习",
   "description": "",
+  base: '/reco-calligraphy/',
   "dest": ".vuepress/dist",
   "head": [
     [
