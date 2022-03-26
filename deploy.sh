@@ -20,7 +20,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:scott180/scott180.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>  注意配置 `.vuepress\config.js` 的 `base`
-# git push -f git@github.com:scott180/reco-calligraphy.git master:gh-pages
+git push -f git@github.com:scott180/reco-calligraphy.git master:gh-pages
 
 cd -
 

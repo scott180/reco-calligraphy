@@ -80,7 +80,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/template.png",
 	record: '浙ICP备2022008289号-1',
     recordLink: 'http://beian.miit.gov.cn',
     cyberSecurityRecord: '浙公网安备 33011002016354号',
