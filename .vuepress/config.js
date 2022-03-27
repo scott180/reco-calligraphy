@@ -51,20 +51,9 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "联系",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "github",
-            "link": "https://github.com/scott180/reco-calligraphy",
-            "icon": "reco-github"
-          },
-		  {
-            "text": "xushufa",
-            "link": "https://xushufa.cn",
-            "icon": "reco-home"
-          }
-        ]
+        "text": "关于我",
+		"link": "/docs/练习/关于我",
+        "icon": "reco-account",
       }
     ],
    
@@ -75,7 +64,7 @@ module.exports = {
         "text": "分类"
       },
       "tag": {
-        "location": 4,
+        "location": 3,
         "text": "标签"
       }
     },
