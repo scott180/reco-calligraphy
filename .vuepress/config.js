@@ -107,6 +107,7 @@ module.exports = {
           separator: "-", // Separator of the slug, default: '-'
         },
       ],
+	  // 图片放大
 	  [
       'vuepress-plugin-medium-zoom',
       {
