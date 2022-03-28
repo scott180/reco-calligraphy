@@ -118,6 +118,8 @@ module.exports = {
         },
       },
     ],
+	// 为博客文章自动随机添加名人名言
+	 ["vuepress-plugin-boxx"]
   ]
 
 }
