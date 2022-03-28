@@ -8,7 +8,6 @@ categories:
  - 练习
 ---
 
-# 书法练习轨迹ReadMe
 
 ## 一、自序
 
