@@ -107,6 +107,16 @@ module.exports = {
           separator: "-", // Separator of the slug, default: '-'
         },
       ],
+	  [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.img',
+        delay: 1000,
+        options: {
+          margin: 16
+        },
+      },
+    ],
   ]
 
 }
