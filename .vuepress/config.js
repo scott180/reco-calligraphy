@@ -85,7 +85,7 @@ module.exports = {
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated",
+    "lastUpdated": "上次更新",
     "author": "",
     "authorAvatar": "/template.png",
 	record: '浙ICP备2022008289号-1',
@@ -126,7 +126,25 @@ module.exports = {
       {
         'ga': 'G-JFCQCFNN0H' // UA-00000000-0
       }
-    ]
-  ]
+    ],
+	[
+	  '@vuepress/last-updated',
+	  {
+		transformer: (timestamp, lang) => {
+		  // 不要忘了安装 moment
+		  const moment = require('moment')
+		  moment.locale(lang)
+		  return moment(timestamp).format('YYYY-MM-DD HH:mm:ss');
+		}
+	  }
+	]
+  ],
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+	  title: '书法练习',
+      description: '无为徐生 书法练习轨迹',
+    }
+  }
 
 }
