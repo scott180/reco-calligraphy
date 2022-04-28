@@ -46,6 +46,18 @@ categories:
 
 ### 2.1、我的网站
 
+> 博客网站
+
+**生活随笔-编程笔记-书法练习轨迹。**
+
+|        | 地址        |  备注          |
+| -----  | ----------- |  ------------- |
+| 1      | [xushufa.cn]( https://xushufa.cn )            | 书法练习网站。 |
+| 2      | [blog.xushufa.cn]( https://blog.xushufa.cn )  | `vuepress`构建的博客网站。 |
+| 3      | [web.xushufa.cn]( https://web.xushufa.cn )    | `vuepress-theme-reco`构建的博客网站。|
+
+---
+
 > 徐书法 `xushufa.cn`
 
 | 徐书法 | 我的网站    |  备注          |
@@ -469,10 +481,12 @@ https://xyqin.coding.net/p/my/d/document/git/raw/master/imgs/calligraphy-wxMiniP
 
 gitcode  加载快，无屏蔽
 https://gitcode.net/xu180/imgs/-/raw/master/mingyue/2021/202104/2021042504.jpg
+https://codechina.csdn.net/xu180/imgs/-/raw/master/mingyue/2022/202204/2022040801.jpg
 https://gitcode.net/xu180/document/-/raw/master/imgs/weixin/calligraphy-wxMiniProgram.jpg
 
-github  国外网站，加载慢
+github  国外网站，加载慢   cdn
 https://raw.githubusercontent.com/scott180/imgs/master/mingyue/2021/202104/2021042501.jpg
+https://cdn.jsdelivr.net/gh/scott180/imgs/mingyue/2021/202105/2021050202.jpg
 
 gitee   加载快，有屏蔽
 https://gitee.com/xy180/imgs/raw/master/mingyue/2021/202104/2021040202.jpg
@@ -742,6 +756,4 @@ https://codeberg.org/xuyq/imgs/raw/branch/master/mingyue/2022/202201/2022012101.
 | 3      | [reco-calligraphy]( https://reco-calligraphy.xushufa.cn ) &ensp; [reco-blog]( https://reco-blog.xushufa.cn ) | `vuepress-theme-reco`构建的网站。     |
 
 ***
-
-
 

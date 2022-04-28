@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "书法练习",
+  "title": "书法练习轨迹",
   "description": "",
   // base: '/reco-calligraphy/',
   "dest": ".vuepress/dist",
@@ -56,10 +56,12 @@ module.exports = {
         "text": "文档",
         "icon": "reco-document",
         "items": [
+			  { text: '灵飞经', link: '/docs/书法/灵飞经'}, 
 			  { text: '多宝塔碑', link: '/docs/书法/多宝塔碑'}, 
+			  { text: '徐书法', link: '/docs/练习/徐书法'}, 
 			  { text: '无为徐生', link: '/docs/练习/无为徐生'}, 
 			  { text: '古文诗词', link: '/docs/练习/古文诗词'}, 
-			  { text: '书法练习轨迹ReadMe', link: '/docs/练习/书法练习轨迹ReadMe'}, 
+			  { text: '书法练习轨迹', link: '/docs/练习/书法练习轨迹ReadMe'}, 
 			  { text: '有感之杂说', link: '/docs/轨迹/有感之杂说'}, 
         ]		
       },
@@ -70,11 +72,57 @@ module.exports = {
       },
       {
         "text": "关于我",
-		"link": "/docs/练习/关于我",
+		"link": "/关于我",
         "icon": "reco-account",
       }
     ],
-   
+   subSidebar: 'auto',
+	// 侧边栏
+    sidebar: {
+		 '/docs/': [
+			{
+			  title: '书法',
+			  collapsable: true, // 可选的, 默认值是 true,
+			  sidebarDepth: 2,   // 可选的, 默认值是 1
+			  children: [
+				{ title: '书法名帖', path: '书法/书法名帖'}, 
+				{ title: '灵飞经', path: '书法/灵飞经'},
+				{ title: '多宝塔碑', path: '书法/多宝塔碑'},
+				{ title: '《心经》书法', path: '书法/《心经》书法'},
+				{ title: '《兜沙经》书法', path: '书法/《兜沙经》书法'}, 
+				{ title: '文徵明小楷《千字文》', path: '书法/文徵明小楷《千字文》'},
+				{ title: '文徵明小楷《草堂十志》', path: '书法/文徵明小楷《草堂十志》'}
+	
+			  ]					
+			},
+			{
+			  title: '练习',
+			  collapsable: true, // 可选的, 默认值是 true,
+			  sidebarDepth: 2,   // 可选的, 默认值是 1
+			  children: [
+				{ title: '徐书法', path: '练习/徐书法'}, 
+				{ title: '无为徐生', path: '练习/无为徐生'},
+				{ title: '古文诗词', path: '练习/古文诗词'}, 
+				{ title: '笔名汉字频率分析', path: '练习/笔名汉字频率分析'},
+				{ title: '书法练习轨迹ReadMe', path: '练习/书法练习轨迹ReadMe'},
+				{ title: '书法练习轨迹--明月几时有', path: '练习/书法练习轨迹--明月几时有'}
+			  ]					
+			},
+			{
+			  title: '轨迹',
+			  collapsable: true, // 可选的, 默认值是 true,
+			  sidebarDepth: 2,   // 可选的, 默认值是 1
+			  children: [
+				{ title: '自序', path: '轨迹/自序'}, 
+				{ title: '诗词杂句', path: '轨迹/诗词杂句'}, 
+				{ title: '有感之杂说', path: '轨迹/有感之杂说'},
+				{ title: '书法练习轨迹remark', path: '轨迹/书法练习轨迹remark'},
+				{ title: '书法练习轨迹--明月几时有-无图版', path: '轨迹/书法练习轨迹--明月几时有-无图版'}
+			  ]
+			}
+		   
+		   ]
+    },		
     "type": "blog",
     "blogConfig": {
       "category": {
@@ -103,7 +151,7 @@ module.exports = {
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
-    "lastUpdated": "上次更新",
+    "lastUpdated": "最近更新",
     "author": "",
     "authorAvatar": "/template.png",
 	record: '浙ICP备2022008289号-1',
@@ -160,8 +208,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-	  title: '书法练习',
-      description: '无为徐生 书法练习轨迹',
+	  title: '书法练习轨迹',
+      description: '',
     }
   }
 
