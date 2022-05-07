@@ -8,7 +8,6 @@ categories:
  - 轨迹
 ---
 
-
 > [**地址**]( https://xushufa.cn ) &ensp; [gitlab]( https://gitlab.com/xuyq123/calligraphy ) &ensp; [coding]( https://xyqin.coding.net/public/my/calligraphy/git ) &ensp; [github]( https://github.com/scott180/calligraphy )  &ensp; [blog]( https://blog.xushufa.cn ) 
 
 
@@ -28,6 +27,13 @@ categories:
 
 ② markdown转PDF文件分页
 <div STYLE="page-break-after: always;"></div>
+
+```
+
+```
+markdown表格宽度设置
+
+| git仓库 | 布署方法 | <span style="white-space:nowrap;">备注&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span> |
 
 ```
 
